@@ -1,4 +1,4 @@
 include README.rst
 include CHANGES.rst
-recursive-include eye
+recursive-include eye *
 global-exclude *.pyc
