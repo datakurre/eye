@@ -50,7 +50,7 @@ class Eye(object):
         return app(environ, start_response)
 
 
-def eye(root=None, zodb_uri=None, port=8080):
+def eye(root=None, zodb_uri=None, port=8070):
     """Serves a WSGI app to browse objects based on a root object or ZODB URI.
     """
     if root is not None:
